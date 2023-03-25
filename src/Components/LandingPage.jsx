@@ -81,10 +81,7 @@ export default function LandingPage() {
                 <h3>EDISONVALLEY</h3>
                 <p>
                   2020 © Edisonvalley. Developed by Shabin
-                  <br />
-                  A tech enthusiast determined to uplift the
-                  <br />
-                  society utilising the latest technologies.
+                  <br />A tech enthusiast
                 </p>
               </Col>
               <Col md="2">
