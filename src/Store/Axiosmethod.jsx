@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASICURL = "http://api.certificates.edisonvalley.com/api/v1";
+const BASICURL = "https://wild-erin-cowboy-boots.cyclic.app/";
+// const BASICURL = "http://api.certificates.edisonvalley.com/api/v1";
 
 export const axiosApi = axios.create({
   baseURL: BASICURL,
