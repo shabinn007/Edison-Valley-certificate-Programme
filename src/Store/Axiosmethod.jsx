@@ -1,6 +1,8 @@
+/** @format */
+
 import axios from "axios";
 
-const BASICURL = "http://api.certificates.edisonvalley.com/api/v1";
+const BASICURL = "https://fine-pear-turtle-tie.cyclic.app/";
 
 export const axiosApi = axios.create({
   baseURL: BASICURL,
@@ -8,9 +10,8 @@ export const axiosApi = axios.create({
 });
 
 axiosApi.interceptors.request.use(function (config) {
-
   const token = sessionStorage.getItem("token");
-  
+
   if (token) {
     config.headers["Authorization"] =
       "Token " + sessionStorage.getItem("token");
