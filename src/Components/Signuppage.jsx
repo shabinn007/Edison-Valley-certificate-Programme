@@ -20,7 +20,8 @@ const SignupPage = () => {
 
   const HandleSignup = e => {
     e.preventDefault();
-    dispatch(signupApi({ state, navigate }));
+    // console.log(state);
+    dispatch(signupApi({ ...state }, navigate));
   };
 
   return (

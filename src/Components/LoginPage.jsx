@@ -48,7 +48,7 @@ const LoginPage = () => {
               onChange={e => setState({ ...state, password: e.target.value })}
             />
             <Button
-              type="s ubmit"
+              type="submit"
               variant="primary"
               className="btn btn-primary mt-3 w-100"
             >

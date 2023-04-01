@@ -21,7 +21,8 @@ import { axiosApi } from "./../Axiosmethod";
 
 // .............................SIGNUP..........................................
 
-export const signupApi = ({ input, navigate }) => {
+export const signupApi = (input, navigate) => {
+  console.log(input);
   return async dispatch => {
     dispatch(signupRequest(input));
 
